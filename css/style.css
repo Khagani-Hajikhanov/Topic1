@@ -12,14 +12,32 @@
 .ad{
     text-align: center;
     font-size: 30px;
+    background-color: black;
+    border-radius: 0px 20px 0px 20px;
+    margin: 5px;
+    padding: 15px;
+    color: burlywood;
+    text-shadow: -5px 3px 5px rgb(235, 14, 243);
 }
 
 p{
     text-align: center;
 }
 
-ul{
+.liste{
     text-align: center;
-    border: 2px solid black;
+    border: 2px  solid black;
     font-size: 20px;
+}
+
+body{
+    background-color: gray;
+}
+
+.xett1{
+    border: 2px dotted green;
+}
+.xett2{
+    border: 1px solid green;
+    margin: 20px;
 }
