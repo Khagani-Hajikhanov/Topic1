@@ -1,43 +1,81 @@
-.basliq1{
-    background-color: black;
-    color: white;
-    font-size: 40px;
-    margin: 5px;
-    padding: 10px;
-    text-align: center;
-    text-decoration: underline;
-    border-radius: 20px 0px 20px 0px;
-}
-
-.ad{
-    text-align: center;
-    font-size: 30px;
-    background-color: black;
-    border-radius: 0px 20px 0px 20px;
-    margin: 5px;
+.basliq {
+    background-color: #ccc;
     padding: 15px;
-    color: burlywood;
-    text-shadow: -5px 3px 5px rgb(235, 14, 243);
-}
-
-p{
+    display: block;
     text-align: center;
 }
 
-.liste{
+.umumi{
+    padding: 15px;
+    width: 33.3333%;
+    box-sizing: border-box;
     text-align: center;
-    border: 2px  solid black;
-    font-size: 20px;
+    float: left;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sec1{
+    background-color: #666;
 }
 
-body{
-    background-color: gray;
+.sec2{
+    background-color: #888;
 }
 
-.xett1{
-    border: 2px dotted green;
+.sec3{
+    background-color: #666;
 }
-.xett2{
-    border: 1px solid green;
-    margin: 20px;
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.orta{
+    margin-top: 25px;
+    background-color: #eee;
+    display: block;
+    text-align: center;
+    
+}
+
+
+
+aside{
+    padding-top: 15px;
+    background-color: #fff;
+    float: left;
+    height: 50px;
+    margin-left: 30px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.ortadiv{
+    background-color: #6ea3da;
+    display: block;
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+footer{
+    margin-top: 15px;
+    background-color: #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.foot{
+    padding: 15px;
+    text-align: right;
+    background-color: #6ea3da;
+    margin-top: 30px;
 }
